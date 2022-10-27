@@ -1,0 +1,141 @@
+
+.container_clock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  background-color: lightgray;
+  border-radius: 100%;
+}
+
+.clock{
+  border-radius: 100%;
+  border: solid 6px black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.uno{
+  position:absolute;
+  font-size: 3vw;
+  right: 25%;
+  top: 6%;
+}
+
+.once{
+  position:absolute;
+  font-size: 3vw;
+  left: 22%;
+  top: 6%;
+}
+.dos{
+  position:absolute;
+  font-size: 3vw;
+  right: 10%;
+  top: 22%;
+}
+
+.diez{
+  position:absolute;
+  font-size: 3vw;
+  left: 7%;
+  top: 22%;
+}
+
+.tres{
+  position:absolute;
+  font-size: 4vw;
+  right: 0px;
+}
+
+.nueve{
+  position:absolute;
+  font-size: 4vw;
+  left: 0px;
+}
+
+.cuatro{
+  position:absolute;
+  font-size: 3vw;
+  right: 10%;
+  bottom: 22%;
+}
+
+.ocho{
+  position:absolute;
+  font-size: 3vw;
+  left: 10%;
+  bottom: 22%;
+}
+
+.cinco{
+  position:absolute;
+  font-size: 3vw;
+  right: 25%;
+  bottom: 6%;
+}
+
+.siete{
+  position:absolute;
+  font-size: 3vw;
+  left: 25%;
+  bottom: 6%;
+}
+
+.seis{
+  position:absolute;
+  font-size: 4vw;
+  bottom: 0px;
+}
+
+.doce{
+  position:absolute;
+  font-size: 4vw;
+  top: 0px;
+}
+
+.dot{
+  position: absolute;
+  border-radius: 100%;
+  border: solid 5px red;
+  width: 10px;
+  height: 10px;
+  z-index: 2;
+}
+
+.hour{
+  position: absolute;
+  height: 8vw;
+  width: 8px;
+  color: black;
+  background: 4px black;
+  translate: 0 -50%;
+  transform-origin: bottom center;
+  transform: rotate(300deg);
+}
+
+.minute{
+  position: absolute;
+  height: 10vw;
+  width: 5px;
+  color: blue;
+  background: 3px blue;
+  translate: 0 -50%;
+  transform-origin: bottom center;
+  transform: rotate(330deg);
+}
+
+.second{
+  position: absolute;
+  height: 13vw;
+  width: 3px;
+  color: goldenrod;
+  border: solid 3px goldenrod;
+  translate: 0 -50%;
+  transform-origin: bottom center;
+  transform: rotate(360deg);
+  z-index: 1;
+}
